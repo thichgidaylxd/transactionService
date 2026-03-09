@@ -18,6 +18,7 @@ public class FundTransaction {
     @GeneratedValue
     private UUID id;
 
+    @Column(name = "sepay_id")
     private Long sepayId;
 
     private String gateway;
