@@ -7,6 +7,6 @@ spring:
     password: ${DB_PASS}
     driver-class-name: org.postgresql.Driver
 sepay:
-  api-key:
+  api-key: {SEPAY_API_KEY}
 
 
